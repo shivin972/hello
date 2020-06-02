@@ -17,5 +17,5 @@ workflows:
               branches:
                 only:
                   - circleci-project-setup
-     jobs:
-      - firstjob
+    jobs:
+     - firstjob
