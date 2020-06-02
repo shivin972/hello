@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   firstjob:
     docker:
-      image: circleci/ruby:2.4.1
+      - image: circleci/ruby:2.4.1
   steps:
   - checkout
   - run echo"Hello World"
