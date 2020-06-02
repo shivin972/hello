@@ -13,5 +13,9 @@ workflows:
       triggers:
         - schedule:
             cron: "26 15 * * *"
+              filters:
+               branches:
+                 only:
+                   - circleci-project-setup
       jobs:
        - firstjob
