@@ -10,5 +10,7 @@ jobs:
 workflows:
     version: 2.1
     firstjob_flow:
+      - schedule:
+          cron: "23 15 * * *"
       jobs:
        - firstjob
