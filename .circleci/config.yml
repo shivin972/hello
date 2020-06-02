@@ -5,10 +5,10 @@ jobs:
     docker:
       image: circleci/ruby:2.4.1
   steps:
-  -checkout
-  -run echo"Hello World"
+  - checkout
+  - run echo"Hello World"
   workflows:
     version: 2.1
     firstjob_flow:
       jobs:
-      -firstjob
+      - firstjob
