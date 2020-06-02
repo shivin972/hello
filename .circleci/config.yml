@@ -12,7 +12,7 @@ workflows:
     firstjob_flow:
       triggers:
         - schedule:
-            cron: "26 15 * * *"
+            cron: "30 15 * * *"
             filters:
               branches:
                 only:
